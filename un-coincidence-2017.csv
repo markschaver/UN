@@ -1,0 +1,193 @@
+COUNTRY,SAME,OPPOSITE,PARTIAL,ABSENT,VOTING COINCIDENCE
+Afghanistan,0,19,2,0,0.05
+Albania,0,14,7,0,0.17
+Algeria,0,19,2,0,0.05
+Andorra,0,14,7,0,0.17
+Angola,0,19,2,0,0.05
+Antigua and Barbuda,0,12,3,6,0.1
+Argentina,0,16,5,0,0.12
+Armenia,0,15,6,0,0.14
+Australia,7,4,10,0,0.57
+Austria,0,14,7,0,0.17
+Azerbaijan,0,19,2,0,0.05
+Bahamas,0,18,3,0,0.07
+Bahrain,0,19,2,0,0.05
+Bangladesh,0,19,2,0,0.05
+Barbados,0,13,2,6,0.07
+Belarus,0,16,2,3,0.06
+Belgium,0,13,8,0,0.19
+Belize,0,19,2,0,0.05
+Benin,0,5,1,15,0.08
+Bhutan,0,18,3,0,0.07
+Bolivia (Plurinational State of),0,19,2,0,0.05
+Bosnia and Herzegovina,0,13,8,0,0.19
+Botswana,0,18,3,0,0.07
+Brazil,0,18,3,0,0.07
+Brunei Darussalam,0,19,2,0,0.05
+Bulgaria,0,14,7,0,0.17
+Burkina Faso,0,16,2,3,0.06
+Burundi,0,18,1,2,0.03
+Cabo Verde,0,19,2,0,0.05
+Cambodia,0,19,2,0,0.05
+Cameroon,2,1,18,0,0.52
+Canada,20,0,1,0,0.98
+Central African Republic,0,12,6,3,0.17
+Chad,0,12,0,9,0
+Chile,0,19,2,0,0.05
+China,0,19,2,0,0.05
+Colombia,0,15,6,0,0.14
+Comoros,0,12,0,9,0
+Congo,0,19,2,0,0.05
+Congo (Democratic Republic of the),0,3,2,16,0.2
+Costa Rica,0,18,3,0,0.07
+Cote d'Ivoire,0,19,2,0,0.05
+Croatia,0,13,8,0,0.19
+Cuba,0,19,2,0,0.05
+Cyprus,0,16,5,0,0.12
+Czech Republic,1,12,8,0,0.24
+Denmark,0,13,8,0,0.19
+Djibouti,0,18,2,1,0.05
+Dominica,0,3,0,18,0
+Dominican Republic,0,18,3,0,0.07
+Ecuador,0,19,2,0,0.05
+Egypt,0,19,2,0,0.05
+El Salvador,0,18,2,1,0.05
+Equatorial Guinea,0,17,4,0,0.1
+Eritrea,0,18,3,0,0.07
+Estonia,0,14,7,0,0.17
+Ethiopia,0,17,4,0,0.1
+Fiji,0,15,6,0,0.14
+Finland,0,14,7,0,0.17
+France,1,13,7,0,0.21
+Gabon,0,15,2,4,0.06
+Gambia,0,19,2,0,0.05
+Georgia,0,12,8,1,0.2
+Germany,1,13,7,0,0.21
+Ghana,0,6,2,13,0.13
+Greece,0,14,7,0,0.17
+Grenada,0,3,0,18,0
+Guatemala,6,7,8,0,0.48
+Guinea,0,19,2,0,0.05
+Guinea-Bissau,0,3,0,18,0
+Guyana,0,19,2,0,0.05
+Haiti,0,8,2,11,0.1
+Honduras,5,4,12,0,0.52
+Hungary,0,12,9,0,0.21
+Iceland,0,15,6,0,0.14
+India,0,18,3,0,0.07
+Indonesia,0,19,2,0,0.05
+Iran (Islamic Republic of),0,19,2,0,0.05
+Irag,0,19,2,0,0.05
+Ireland,0,14,7,0,0.17
+Israel,19,0,2,0,0.95
+Italy,0,13,8,0,0.19
+Jamaica,0,17,4,0,0.1
+Japan,0,14,7,0,0.17
+Jordan,0,19,2,0,0.05
+Kazakhstan,0,19,2,0,0.05
+Kenya,1,18,1,1,0.08
+Kiribati,0,0,1,20,0.5
+Korea (Democratic People's Republic of),0,19,2,0,0.05
+Korea (Republic of),0,14,7,0,0.17
+Kuwait,0,19,2,0,0.05
+Kyrgyzstan,0,19,2,0,0.05
+Lao People's Democratic Republic,0,19,2,0,0.05
+Latvia,0,13,8,0,0.19
+Lebanon,0,19,2,0,0.05
+Lesotho,0,17,3,1,0.08
+Liberia,0,6,0,15,0
+Libya,0,19,2,0,0.05
+Liechtenstein,0,14,7,0,0.17
+Lithuania,0,13,8,0,0.19
+Luxembourg,0,13,8,0,0.19
+Macedonia (the former Yugoslav Republic of),0,14,7,0,0.17
+Madagascar,0,6,0,15,0
+Malawi,0,5,1,15,0.08
+Malaysia,0,19,2,0,0.05
+Maldives,0,19,2,0,0.05
+Mali,0,19,2,0,0.05
+Malta,0,16,5,0,0.12
+Marshall Islands,20,0,0,1,1
+Mauritania,0,19,2,0,0.05
+Mauritius,0,19,2,0,0.05
+Mexico,1,9,11,0,0.31
+Micronesia (Federated States of),20,0,0,1,1
+Moldova (Republic of),0,13,7,1,0.18
+Monaco,0,13,8,0,0.19
+Mongolia,0,15,3,3,0.08
+Montenegro,0,14,7,0,0.17
+Morocco,0,19,2,0,0.05
+Mozambique,0,19,2,0,0.05
+Myanmar (Burma),0,2,1,18,0.17
+Namibia,0,19,2,0,0.05
+Nauru,18,1,2,0,0.9
+Nepal,0,19,2,0,0.05
+Netherlands,0,13,8,0,0.19
+New Zealand,0,14,7,0,0.17
+Nicaragua,0,19,2,0,0.05
+Niger,0,5,0,16,0
+Nigeria,0,17,2,2,0.05
+Norway,0,14,7,0,0.17
+Oman,0,19,2,0,0.05
+Pakistan,0,19,2,0,0.05
+Palau,11,0,1,9,0.96
+Panama,1,12,8,0,0.24
+Papua New Guinea,1,6,14,0,0.38
+Paraguay,2,4,15,0,0.45
+Peru,0,16,5,0,0.12
+Philippines,0,17,4,0,0.1
+Poland,0,12,9,0,0.21
+Portugal,0,14,7,0,0.17
+Qatar,0,17,2,2,0.05
+Romania,0,12,9,0,0.21
+Russian Federation,0,16,5,0,0.12
+Rwanda,1,4,7,9,0.38
+Saint Kitts and Nevis,0,18,2,1,0.05
+Saint Lucia,0,17,2,2,0.05
+Saint Vincent and the Grenadines,0,19,2,0,0.05
+Samoa,0,17,3,1,0.08
+San Marino,0,13,7,1,0.18
+Sao Tome and Principe,0,0,0,21,No Votes
+Saudi Arabia,0,19,2,0,0.05
+Senegal,0,19,2,0,0.05
+Serbia,0,14,7,0,0.17
+Seychelles,0,11,0,10,0
+Sierra Leone,0,18,2,1,0.05
+Singapore,0,19,2,0,0.05
+Slovakia,0,14,7,0,0.17
+Slovenia,0,14,7,0,0.17
+Solomon Islands,6,7,8,0,0.48
+Somalia,0,11,0,10,0
+South Africa,0,19,2,0,0.05
+South Sudan,2,0,14,5,0.56
+Spain,0,14,7,0,0.17
+Sri Lanka,0,19,2,0,0.05
+Sudan,0,19,2,0,0.05
+Suriname,0,19,2,0,0.05
+Swaziland,0,3,0,18,0
+Sweden,0,14,7,0,0.17
+Switzerland,0,14,7,0,0.17
+Syrian Arab Republic,0,19,2,0,0.05
+Tajikistan,0,19,2,0,0.05
+"Tanzania, United Republic of",0,19,2,0,0.05
+Thailand,0,18,3,0,0.07
+Timor-Leste,0,11,3,7,0.11
+Togo,2,5,14,0,0.43
+Tonga,1,4,9,7,0.39
+Trinidad and Tobago,0,17,3,1,0.08
+Tunisia,0,19,2,0,0.05
+Turkey,0,19,2,0,0.05
+Turkmenistan,0,17,2,2,0.05
+Tuvalu,1,9,4,7,0.21
+Uganda,0,18,3,0,0.07
+Ukraine,0,13,7,1,0.18
+United Arab Emirates,0,19,2,0,0.05
+United Kingdom of Great Britain and Northern Ireland,2,13,6,0,0.24
+Uruguay,0,18,3,0,0.07
+Uzbekistan,0,19,2,0,0.05
+Vanuatu,2,3,10,6,0.47
+Venezuela (Bolivarian Republic of),0,19,2,0,0.05
+Viet Nam,0,19,2,0,0.05
+Yemen,0,19,2,0,0.05
+Zambia,0,18,2,1,0.05
+Zimbabwe,0,19,2,0,0.05
