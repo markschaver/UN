@@ -1,0 +1,193 @@
+COUNTRY,ISO,SAME,OPPOSITE,PARTIAL,ABSENT,COINCIDENCE
+Afghanistan,AFG,12,66,11,11,0.2
+Albania,ALB,40,29,29,2,0.56
+Algeria,DZA,13,71,16,0,0.21
+Andorra,AND,32,38,30,0,0.47
+Angola,AGO,12,70,12,6,0.19
+Antigua and Barbuda,ATG,15,69,8,8,0.21
+Argentina,ARG,19,66,15,0,0.27
+Armenia,ARM,16,52,26,6,0.31
+Australia,AUS,50,18,31,1,0.66
+Austria,AUT,35,38,27,0,0.49
+Azerbaijan,AZE,14,70,9,7,0.2
+Bahamas,BHS,19,66,10,5,0.25
+Bahrain,BHR,17,69,14,0,0.24
+Bangladesh,BGD,14,70,16,0,0.22
+Barbados,BRB,18,61,11,10,0.26
+Belarus,BLR,10,65,20,5,0.21
+Belgium,BEL,40,31,27,2,0.55
+Belize,BLZ,18,65,12,5,0.25
+Benin,BEN,14,70,10,6,0.2
+Bhutan,BTN,14,71,14,1,0.21
+Bolivia,BOL,11,66,11,12,0.2
+Bosnia and Herzegovina,BIH,31,35,32,2,0.48
+Botswana,BWA,15,69,9,7,0.21
+Brazil,BRA,25,50,24,1,0.37
+Brunei Darussalam,BRN,14,70,16,0,0.22
+Bulgaria,BGR,41,30,29,0,0.56
+Burkina Faso,BFA,13,62,9,16,0.21
+Burundi,BDI,9,66,10,15,0.16
+Cabo Verde,CPV,15,67,13,5,0.23
+Cambodia,KHM,11,76,11,2,0.17
+Cameroon,CMR,11,47,36,6,0.31
+Canada,CAN,53,22,25,0,0.66
+Central African Republic,CAF,13,49,22,16,0.29
+Chad,TCD,12,62,12,14,0.21
+Chile,CHL,18,68,14,0,0.25
+China,CHN,13,71,14,2,0.2
+Colombia,COL,19,59,21,1,0.3
+Comoros,COM,10,58,11,21,0.2
+Congo,COG,7,60,8,25,0.15
+Costa Rica,CRI,18,70,10,2,0.23
+C“te D'Ivoire,CIV,13,62,23,2,0.25
+Croatia,HRV,39,31,30,0,0.54
+Cuba,CUB,11,76,10,3,0.16
+Cyprus,CYP,33,41,26,0,0.46
+Czechia,CZE,44,29,27,0,0.58
+DPRK,PRK,5,67,17,11,0.16
+Democratic Republic of the Congo,COD,9,32,8,51,0.27
+Denmark,DNK,41,30,29,0,0.56
+Djibouti,DJI,17,69,12,2,0.23
+Dominica,DMA,1,7,1,91,0.32
+Dominican Republic,DOM,19,68,11,2,0.25
+Ecuador,ECU,17,69,14,0,0.24
+Egypt,EGY,15,71,14,0,0.22
+El Salvador,SLV,17,70,13,0,0.24
+Equatorial Guinea,GNQ,4,16,1,79,0.29
+Eritrea,ERI,12,72,13,3,0.19
+Estonia,EST,45,30,25,0,0.58
+eSwatini,SWZ,10,41,12,37,0.25
+Ethiopia,ETH,14,68,14,4,0.22
+Fiji,FJI,13,61,21,5,0.25
+Finland,FIN,36,34,30,0,0.51
+France,FRA,47,27,26,0,0.6
+Gabon,GAB,10,65,12,13,0.18
+Gambia (Republic of The),GMB,16,69,10,5,0.22
+Georgia,GEO,33,31,34,2,0.51
+Germany,DEU,42,30,28,0,0.56
+Ghana,GHA,13,61,21,5,0.25
+Greece,GRC,41,34,25,0,0.54
+Grenada,GRD,10,59,13,18,0.2
+Guatemala,GTM,25,55,20,0,0.35
+Guinea,GIN,8,50,3,39,0.2
+Guinea Bissau,GNB,11,48,10,31,0.23
+Guyana,GUY,17,66,12,5,0.24
+Haiti,HTI,18,31,13,38,0.4
+Honduras,HND,24,54,20,2,0.35
+Hungary,HUN,45,29,26,0,0.58
+Iceland,ISL,37,33,30,0,0.52
+India,IND,19,66,15,0,0.27
+Indonesia,IDN,13,71,16,0,0.21
+Iran,IRN,10,74,10,6,0.16
+Iraq,IRQ,14,71,17,1,0.21
+Ireland,IRL,33,39,28,0,0.47
+Israel,ISR,90,2,4,4,0.96
+Italy,ITA,39,29,32,0,0.55
+Jamaica,JAM,17,69,12,2,0.23
+Japan,JPN,31,35,34,0,0.48
+Jordan,JOR,13,68,14,5,0.21
+Kazakhstan,KAZ,14,72,13,1,0.21
+Kenya,KEN,10,68,16,6,0.19
+Kiribati,KIR,18,47,20,15,0.33
+Kuwait,KWT,15,69,15,1,0.23
+Kyrgyzstan,KGZ,12,65,12,11,0.2
+Lao People?s Democratic Republic,LAO,12,73,15,0,0.2
+Latvia,LVA,43,29,27,1,0.57
+Lebanon,LBN,11,72,13,4,0.18
+Lesotho,LSO,12,65,14,9,0.21
+Liberia,LBR,16,12,17,55,0.54
+Libya,LBY,11,68,18,3,0.21
+Liechtenstein,LIE,33,39,28,0,0.47
+Lithuania,LTU,43,30,27,0,0.57
+Luxembourg,LUX,39,30,31,0,0.55
+Madagascar,MDG,11,56,10,23,0.21
+Malawi,MWI,14,47,10,29,0.27
+Malaysia,MYS,17,71,15,0,0.22
+Maldives,MDV,17,7,13,0,0.24
+Mali,MLI,11,65,18,6,0.21
+Malta,MLT,33,40,27,0,0.47
+Marshall Islands,MHL,44,20,14,22,0.65
+Mauritania,MRT,10,69,12,9,0.18
+Mauritius,MUS,16,59,11,4,0.22
+Mexico,MEX,19,62,19,0,0.29
+Micronesia (Federated States of),FSM,46,13,11,30,0.73
+Monaco,MCO,39,32,28,1,0.54
+Mongolia,MNG,13,66,17,4,0.22
+Montenegro,MNE,39,31,30,0,0.54
+Morocco,MAR,15,69,14,2,0.22
+Mozambique,MOZ,12,72,14,2,0.19
+Myanmar,MMR,14,57,10,19,0.23
+Namibia,NAM,13,69,13,5,0.21
+Nauru,NRU,23,34,12,31,0.42
+Nepal,NPL,16,69,13,2,0.23
+Netherlands,NLD,41,32,27,0,0.55
+New Zealand,NZL,34,42,24,0,0.46
+Nicaragua,NIC,9,77,11,3,0.15
+Niger,NER,10,49,9,32,0.22
+Nigeria,NGA,15,68,12,5,0.22
+North Macedonia,MKD,39,33,28,0,0.53
+Norway,NOR,37,34,29,0,0.52
+Oman,OMN,14,68,14,4,0.22
+Pakistan,PAK,16,62,18,4,0.26
+Palau,PLW,15,42,24,19,0.34
+Panama,PAN,21,62,15,2,0.29
+Papua New Guinea,PNG,14,35,14,37,0.35
+Paraguay,PRY,17,64,17,2,0.26
+Peru,PER,17,63,18,2,0.27
+Philippines,PHL,18,70,12,0,0.24
+Poland,POL,42,30,28,0,0.56
+Portugal,PRT,37,30,32,1,0.54
+Qatar,QAT,16,68,16,0,0.24
+Republic of Korea,KOR,39,35,22,4,0.52
+Republic of Moldova,MDA,32,39,24,5,0.46
+Romania,ROU,41,32,27,0,0.55
+Russian Federation,RUS,18,61,15,6,0.27
+Rwanda,RWA,11,49,28,12,0.28
+Saint Kitts and Nevis,KNA,17,62,10,11,0.25
+Saint Lucia,LCA,16,69,10,5,0.22
+Saint Vincent and the Grenadines,VCT,13,68,14,5,0.21
+Samoa,WSM,18,59,20,3,0.29
+San Marino,SMR,30,37,30,3,0.46
+Sao Tome and Principe,STP,11,48,11,30,0.24
+Saudi Arabia,SAU,17,68,15,0,0.25
+Senegal,SEN,14,70,13,3,0.21
+Serbia,SRB,21,45,26,8,0.37
+Seychelles,SYC,14,61,10,15,0.22
+Sierra Leone,SLE,15,67,12,6,0.22
+Singapore,SGP,17,68,14,1,0.24
+Slovakia,SVK,41,31,28,0,0.55
+Slovenia,SVN,38,31,29,2,0.54
+Solomon Islands,SLB,16,40,16,28,0.33
+Somalia,SOM,2,33,3,62,0.16
+South Africa,ZAF,15,67,11,7,0.22
+South Sudan,SSD,6,28,18,48,0.29
+Spain,ESP,38,30,30,2,0.54
+Sri Lanka,LKA,16,70,13,1,0.23
+Sudan,SDN,12,71,15,2,0.2
+Suriname,SUR,13,71,13,3,0.2
+Sweden,SWE,33,35,32,0,0.49
+Switzerland,CHE,31,39,28,2,0.46
+Syrian Arab Republic,SYR,7,76,8,9,0.12
+Tajikistan,TJK,13,67,12,8,0.21
+Thailand,THA,17,69,14,0,0.24
+Timor-Leste,TLS,14,65,12,9,0.22
+Togo,TGO,17,55,25,3,0.3
+Tonga,TON,7,30,22,41,0.32
+Trinidad and Tobago,TTO,13,53,16,18,0.26
+Tunisia,TUN,11,66,18,5,0.21
+Turkey,TUR,33,47,19,1,0.43
+Turkmenistan,TKM,8,58,6,28,0.16
+Tuvalu,TUV,16,31,11,42,0.37
+Uganda,UGA,11,68,14,7,0.19
+Ukraine,UKR,39,29,29,3,0.55
+United Arab Emirates,ARE,16,71,13,0,0.23
+United Kingdom,GBR,52,25,23,0,0.64
+United Republic of Tanzania,TZA,8,53,10,29,0.19
+Uruguay,URY,17,70,13,0,0.24
+Uzbekistan,UZB,14,65,10,11,0.21
+Vanuatu,VUT,19,49,24,8,0.34
+"Venezuela, Bolivarian Republic of",VEN,10,77,12,1,0.16
+Viet Nam,VNM,15,73,10,2,0.2
+Yemen,YEM,16,68,13,3,0.23
+Zambia,ZMB,13,67,14,6,0.21
+Zimbabwe,ZWE,11,73,11,5,0.17
