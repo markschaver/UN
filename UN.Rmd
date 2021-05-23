@@ -24,7 +24,7 @@ kable(most_similar)
 
 ```{r closest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
 closest <- filter(un, un['COINCIDENCE'] > .6)
-kable(closest)
+kable(arrange(closest,desc(COINCIDENCE)))
 ```
 
 ## Voted least often with U.S.

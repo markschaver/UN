@@ -12,11 +12,11 @@ May 23, 2021
 
 | COUNTRY                          | ISO | SAME | OPPOSITE | PARTIAL | ABSENT | COINCIDENCE |
 |:---------------------------------|:----|-----:|---------:|--------:|-------:|------------:|
+| Israel                           | ISR |   90 |        2 |       4 |      4 |        0.96 |
+| Micronesia (Federated States of) | FSM |   46 |       13 |      11 |     30 |        0.73 |
 | Australia                        | AUS |   50 |       18 |      31 |      1 |        0.66 |
 | Canada                           | CAN |   53 |       22 |      25 |      0 |        0.66 |
-| Israel                           | ISR |   90 |        2 |       4 |      4 |        0.96 |
 | Marshall Islands                 | MHL |   44 |       20 |      14 |     22 |        0.65 |
-| Micronesia (Federated States of) | FSM |   46 |       13 |      11 |     30 |        0.73 |
 | United Kingdom                   | GBR |   52 |       25 |      23 |      0 |        0.64 |
 
 ## Voted least often with U.S.
