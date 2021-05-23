@@ -1,7 +1,6 @@
 ---
 title: UN Voting Coincidence
 output: rmarkdown::github_document
-author: Mark Schaver
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 ---
 

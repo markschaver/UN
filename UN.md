@@ -1,6 +1,5 @@
 UN Voting Coincidence
 ================
-Mark Schaver
 May 23, 2021
 
 ## Voted most often with U.S.
