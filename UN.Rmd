@@ -1,0 +1,43 @@
+---
+title: UN Voting Coincidence
+output: html_document
+author: Mark Schaver
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+---
+
+```{r Data-import, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
+library(tidyverse)
+library(rmarkdown)
+library(knitr)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+un <- read.csv("un-coincidence-2019.csv")
+```
+
+## Voted most often with U.S.
+
+```{r most-often, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
+most_similar <- filter(un, un['COINCIDENCE'] == max(un['COINCIDENCE']))
+kable(most_similar)
+```
+
+## Closest to U.S.
+
+```{r closest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
+closest <- filter(un, un['COINCIDENCE'] > .6)
+kable(closest)
+```
+
+## Voted least often with U.S.
+
+``````{r least-similar, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
+least_similar <- filter(un, un['COINCIDENCE'] == min(un['COINCIDENCE']))
+kable(least_similar)
+```
+
+## Farthest from U.S.
+
+```{r farthest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
+farthest <- filter(un, un['COINCIDENCE'] < .2)
+kable(farthest)
+```
