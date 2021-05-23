@@ -38,5 +38,5 @@ kable(least_similar)
 
 ```{r farthest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
 farthest <- filter(un, un['COINCIDENCE'] < .2)
-kable(farthest)
+kable(arrange(farthest,COINCIDENCE))
 ```
