@@ -30,7 +30,7 @@ kable(closest)
 
 ## Voted least often with U.S.
 
-``````{r least-similar, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
+```{r least-similar, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
 least_similar <- filter(un, un['COINCIDENCE'] == min(un['COINCIDENCE']))
 kable(least_similar)
 ```
