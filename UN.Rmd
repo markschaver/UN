@@ -40,3 +40,9 @@ kable(least_similar)
 farthest <- filter(un, un['COINCIDENCE'] < .2)
 kable(arrange(farthest,COINCIDENCE))
 ```
+
+```{r next-steps, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
+# TODO: Extract earlier years from PDFs
+# TODO: Combine data in single table
+# TODO: Put in tidy data format
+```
