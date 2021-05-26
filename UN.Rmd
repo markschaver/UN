@@ -9,8 +9,9 @@ library(tidyverse)
 library(rmarkdown)
 library(knitr)
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-un <- read.csv("un-coincidence-2019.csv")
+wd <- 'C:/Users/schav/OneDrive/03 Resources/Data/UN';
+setwd(wd)
+un <- read.csv("un-coincidence-2016.csv")
 ```
 
 ## Voted most often with U.S.
@@ -42,7 +43,6 @@ kable(arrange(farthest,COINCIDENCE))
 ```
 
 ```{r next-steps, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
-# TODO: Extract earlier years from PDFs
 # TODO: Combine data in single table
 # TODO: Put in tidy data format
 ```
