@@ -4,13 +4,13 @@ March 12, 2022
 
 ## Voted most often with U.S. (2020)
 
-| ï..COUNTRY | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
-|:-----------|:----|-----:|--------:|---------:|-------:|------------:|
-| Israel     | ISR |   87 |       6 |        6 |      1 |        0.91 |
+| COUNTRY | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
+|:--------|:----|-----:|--------:|---------:|-------:|------------:|
+| Israel  | ISR |   87 |       6 |        6 |      1 |        0.91 |
 
 ## Closest to U.S. (2020)
 
-| ï..COUNTRY     | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
+| COUNTRY        | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
 |:---------------|:----|-----:|--------:|---------:|-------:|------------:|
 | Israel         | ISR |   87 |       6 |        6 |      1 |        0.91 |
 | Micronesia     | FSM |   40 |      13 |       14 |     33 |        0.69 |
@@ -20,13 +20,13 @@ March 12, 2022
 
 ## Voted least often with U.S. (2020)
 
-| ï..COUNTRY           | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
+| COUNTRY              | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
 |:---------------------|:----|-----:|--------:|---------:|-------:|------------:|
 | Syrian Arab Republic | SYR |    8 |      13 |       75 |      4 |        0.15 |
 
 ## Farthest from U.S. (2020)
 
-| ï..COUNTRY           | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
+| COUNTRY              | ISO | SAME | PARTIAL | OPPOSITE | ABSENT | COINCIDENCE |
 |:---------------------|:----|-----:|--------:|---------:|-------:|------------:|
 | Syrian Arab Republic | SYR |    8 |      13 |       75 |      4 |        0.15 |
 | Iran                 | IRN |    9 |      13 |       75 |      3 |        0.16 |
