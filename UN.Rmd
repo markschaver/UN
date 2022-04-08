@@ -9,7 +9,8 @@ library(tidyverse)
 library(rmarkdown)
 library(knitr)
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+setwd("C:/Users/schav/OneDrive/Data/UN")
+
 un <- read.csv("un-coincidence-2020.csv")
 ```
 
