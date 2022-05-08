@@ -1,7 +1,7 @@
 ---
-title: UN Voting Coincidence
+title: "UN Voting Coincidence"
+date: "`r format(Sys.Date(), format='%A, %B %d, %Y')`"
 output: rmarkdown::github_document
-date: "`r format(Sys.time(), '%B %d, %Y')`"
 ---
 
 ```{r Data-import, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
