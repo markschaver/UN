@@ -1,11 +1,10 @@
 import polars as pl
+import pandas as pd # Import pandas for the markdown export
 
-# In Python, it's more common to specify the full path directly
-# rather than changing the working directory.
-# If the script is in the same folder as the CSV, you can just use the filename.
+# --- Data Loading and Processing (same as before) ---
+
+# Define the file path
 file_path = "/Users/markschaver/Library/CloudStorage/OneDrive-Personal/Archive/Code/UN/un-coincidence-2023.csv"
-# Or provide the full path:
-# file_path = "/Users/markschaver/Library/CloudStorage/OneDrive-Personal/Archive/Code/UN/un-coincidence-2023.csv"
 
 # Read the CSV file into a Polars DataFrame
 try:
@@ -14,43 +13,49 @@ except FileNotFoundError:
     print(f"Error: The file was not found at {file_path}")
     # Create a dummy DataFrame to allow the rest of the script to run without error
     un = pl.DataFrame({
-        "Country 1": ["A", "B", "C", "D"],
-        "Country 2": ["B", "C", "D", "A"],
+        "Country 1": ["USA", "France", "Russia", "China"],
+        "Country 2": ["UK", "Germany", "Iran", "Pakistan"],
         "COINCIDENCE": [0.95, 0.80, 0.15, 0.50]
     })
     print("Using a dummy DataFrame for demonstration.")
 
-
-# --- 1. Find the most similar countries ---
-# R: most_similar <- filter(un, un["COINCIDENCE"] == max(un["COINCIDENCE"]))
+# 1. Find the most similar countries
 max_coincidence = un.select(pl.max("COINCIDENCE")).item()
 most_similar = un.filter(pl.col("COINCIDENCE") == max_coincidence)
 
-# R: kable(most_similar)
-# In Python, we simply print the DataFrame.
-# Polars provides a clean, table-like output.
-print("--- Most Similar (Max Coincidence) ---")
-print(most_similar)
+# 2. Find countries with high similarity (> 0.75)
+closest_sorted = un.filter(pl.col("COINCIDENCE") > 0.75).sort("COINCIDENCE", descending=True)
+
+# 3. Find the most dissimilar countries (< 0.2)
+farthest_sorted = un.filter(pl.col("COINCIDENCE") < 0.2).sort("COINCIDENCE")
 
 
-# --- 2. Find countries with high similarity (> 0.75) ---
-# R: closest <- filter(un, un["COINCIDENCE"] > .75)
-closest = un.filter(pl.col("COINCIDENCE") > 0.75)
+# --- NEW: Save all results to a Markdown file ---
 
-# R: kable(arrange(closest, desc(COINCIDENCE)))
-# In Polars, we chain the sort method.
-closest_sorted = closest.sort("COINCIDENCE", descending=True)
-print("\n--- Closest (Coincidence > 0.75, sorted) ---")
-print(closest_sorted)
+output_filename = "UN-python.md"
 
+with open(output_filename, "w") as f:
+    # Write a main title for the Markdown file
+    f.write("# UN Voting Coincidence Analysis\n\n")
+    f.write("This report is generated from a Python script using the Polars library.\n\n")
 
-# --- 3. Find the most dissimilar countries (< 0.2) ---
-# R: farthest <- filter(un, un["COINCIDENCE"] < .2)
-farthest = un.filter(pl.col("COINCIDENCE") < 0.2)
+    # Section 1: Most Similar
+    f.write("## Most Similar (Max Coincidence)\n\n")
+    # Convert Polars DF to Pandas DF, then to Markdown string
+    markdown_table = most_similar.to_pandas().to_markdown(index=False)
+    f.write(markdown_table)
+    f.write("\n\n") # Add newlines for spacing in Markdown
 
-# R: kable(arrange(farthest, COINCIDENCE))
-# Sorting is ascending by default.
-farthest_sorted = farthest.sort("COINCIDENCE")
-print("\n--- Farthest (Coincidence < 0.2, sorted) ---")
-print(farthest_sorted)
+    # Section 2: Closest
+    f.write("## Closest (Coincidence > 0.75)\n\n")
+    markdown_table = closest_sorted.to_pandas().to_markdown(index=False)
+    f.write(markdown_table)
+    f.write("\n\n")
 
+    # Section 3: Farthest
+    f.write("## Farthest (Coincidence < 0.2)\n\n")
+    markdown_table = farthest_sorted.to_pandas().to_markdown(index=False)
+    f.write(markdown_table)
+    f.write("\n")
+
+print(f"Successfully saved the output to {output_filename}")
