@@ -20,12 +20,6 @@ Sunday, June 29, 2025
 | Hungary                          | HUN |   59 |     13 |      16 |      0 |        0.76 |
 | Ukraine                          | UKR |   57 |     12 |      18 |      1 |        0.76 |
 
-## Voted least often with U.S. (2023)
-
-| COUNTRY | ISO | SAME | OPPOSE | PARTIAL | ABSENT | COINCIDENCE |
-|:--------|:----|-----:|-------:|--------:|-------:|------------:|
-| Syria   | SYR |    4 |     65 |      18 |      1 |        0.15 |
-
 ## Farthest from U.S. (2023)
 
 | COUNTRY   | ISO | SAME | OPPOSE | PARTIAL | ABSENT | COINCIDENCE |

@@ -27,14 +27,6 @@ kable(most_similar)
 closest <- filter(un, un["COINCIDENCE"] > .75)
 kable(arrange(closest, desc(COINCIDENCE)))
 ```
-
-## Voted least often with U.S. (2023)
-
-```{r least-similar, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
-least_similar <- filter(un, un["COINCIDENCE"] == min(un["COINCIDENCE"]))
-kable(least_similar)
-```
-
 ## Farthest from U.S. (2023)
 
 ```{r farthest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
