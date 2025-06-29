@@ -24,7 +24,7 @@ kable(most_similar)
 ## Closest to U.S. (2023)
 
 ```{r closest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
-closest <- filter(un, un["COINCIDENCE"] > .6)
+closest <- filter(un, un["COINCIDENCE"] > .75)
 kable(arrange(closest, desc(COINCIDENCE)))
 ```
 
