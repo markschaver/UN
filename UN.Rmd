@@ -9,33 +9,33 @@ library(tidyverse)
 library(rmarkdown)
 library(knitr)
 
-setwd("C:/Users/schav/OneDrive/Data/UN")
+setwd("/Users/markschaver/Library/CloudStorage/OneDrive-Personal/Archive/Code/UN")
 
-un <- read.csv("un-coincidence-2020.csv")
+un <- read.csv("un-coincidence-2023.csv")
 ```
 
-## Voted most often with U.S. (2020)
+## Voted most often with U.S. (2023)
 
 ```{r most-often, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
 most_similar <- filter(un, un["COINCIDENCE"] == max(un["COINCIDENCE"]))
 kable(most_similar)
 ```
 
-## Closest to U.S. (2020)
+## Closest to U.S. (2023)
 
 ```{r closest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
 closest <- filter(un, un["COINCIDENCE"] > .6)
 kable(arrange(closest, desc(COINCIDENCE)))
 ```
 
-## Voted least often with U.S. (2020)
+## Voted least often with U.S. (2023)
 
 ```{r least-similar, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
 least_similar <- filter(un, un["COINCIDENCE"] == min(un["COINCIDENCE"]))
 kable(least_similar)
 ```
 
-## Farthest from U.S. (2020)
+## Farthest from U.S. (2023)
 
 ```{r farthest, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, eval=TRUE}
 farthest <- filter(un, un["COINCIDENCE"] < .2)
