@@ -14,4 +14,3 @@ kable(arrange(closest, desc(COINCIDENCE)))
 
 farthest <- filter(un, un["COINCIDENCE"] < .2)
 kable(arrange(farthest, COINCIDENCE))
-
