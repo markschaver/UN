@@ -1,7 +1,7 @@
 [project]
 name = "un"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.2.0"
+description = "U.N. Voting Coincedence"
 requires-python = ">=3.13"
 dependencies = [
     "matplotlib>=3.10.3",
