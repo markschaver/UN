@@ -1,4 +1,4 @@
-COUNTRY,ISO,SAME,OPPOSITE,PARTIAL,ABSENT,COINCIDENCE
+COUNTRY,ISO,SAME,OPPOSE,PARTIAL,ABSENT,COINCIDENCE
 Afghanistan,AFG,12,66,11,11,0.2
 Albania,ALB,40,29,29,2,0.56
 Algeria,DZA,13,71,16,0,0.21
@@ -39,13 +39,13 @@ Colombia,COL,19,59,21,1,0.3
 Comoros,COM,10,58,11,21,0.2
 Congo,COG,7,60,8,25,0.15
 Costa Rica,CRI,18,70,10,2,0.23
-Cote D'Ivoire,CIV,13,62,23,2,0.25
+Côte D'Ivoire,CIV,13,62,23,2,0.25
 Croatia,HRV,39,31,30,0,0.54
 Cuba,CUB,11,76,10,3,0.16
 Cyprus,CYP,33,41,26,0,0.46
 Czechia,CZE,44,29,27,0,0.58
 DPRK,PRK,5,67,17,11,0.16
-Democratic Republic of the Congo,COD,9,32,8,51,0.27
+DRC,COD,9,32,8,51,0.27
 Denmark,DNK,41,30,29,0,0.56
 Djibouti,DJI,17,69,12,2,0.23
 Dominica,DMA,1,7,1,91,0.32
@@ -62,7 +62,7 @@ Fiji,FJI,13,61,21,5,0.25
 Finland,FIN,36,34,30,0,0.51
 France,FRA,47,27,26,0,0.6
 Gabon,GAB,10,65,12,13,0.18
-Gambia (Republic of The),GMB,16,69,10,5,0.22
+Gambia,GMB,16,69,10,5,0.22
 Georgia,GEO,33,31,34,2,0.51
 Germany,DEU,42,30,28,0,0.56
 Ghana,GHA,13,61,21,5,0.25
@@ -91,7 +91,7 @@ Kenya,KEN,10,68,16,6,0.19
 Kiribati,KIR,18,47,20,15,0.33
 Kuwait,KWT,15,69,15,1,0.23
 Kyrgyzstan,KGZ,12,65,12,11,0.2
-Lao People?s Democratic Republic,LAO,12,73,15,0,0.2
+Laos,LAO,12,73,15,0,0.2
 Latvia,LVA,43,29,27,1,0.57
 Lebanon,LBN,11,72,13,4,0.18
 Lesotho,LSO,12,65,14,9,0.21
@@ -110,7 +110,7 @@ Marshall Islands,MHL,44,20,14,22,0.65
 Mauritania,MRT,10,69,12,9,0.18
 Mauritius,MUS,16,59,11,4,0.22
 Mexico,MEX,19,62,19,0,0.29
-Micronesia (Federated States of),FSM,46,13,11,30,0.73
+Micronesia,FSM,46,13,11,30,0.73
 Monaco,MCO,39,32,28,1,0.54
 Mongolia,MNG,13,66,17,4,0.22
 Montenegro,MNE,39,31,30,0,0.54
@@ -139,7 +139,7 @@ Poland,POL,42,30,28,0,0.56
 Portugal,PRT,37,30,32,1,0.54
 Qatar,QAT,16,68,16,0,0.24
 Republic of Korea,KOR,39,35,22,4,0.52
-Republic of Moldova,MDA,32,39,24,5,0.46
+Moldova,MDA,32,39,24,5,0.46
 Romania,ROU,41,32,27,0,0.55
 Russian Federation,RUS,18,61,15,6,0.27
 Rwanda,RWA,11,49,28,12,0.28
@@ -175,7 +175,7 @@ Togo,TGO,17,55,25,3,0.3
 Tonga,TON,7,30,22,41,0.32
 Trinidad and Tobago,TTO,13,53,16,18,0.26
 Tunisia,TUN,11,66,18,5,0.21
-Turkey,TUR,33,47,19,1,0.43
+Türkiye,TUR,33,47,19,1,0.43
 Turkmenistan,TKM,8,58,6,28,0.16
 Tuvalu,TUV,16,31,11,42,0.37
 Uganda,UGA,11,68,14,7,0.19
@@ -186,7 +186,7 @@ United Republic of Tanzania,TZA,8,53,10,29,0.19
 Uruguay,URY,17,70,13,0,0.24
 Uzbekistan,UZB,14,65,10,11,0.21
 Vanuatu,VUT,19,49,24,8,0.34
-"Venezuela, Bolivarian Republic of",VEN,10,77,12,1,0.16
+Venezuela,VEN,10,77,12,1,0.16
 Viet Nam,VNM,15,73,10,2,0.2
 Yemen,YEM,16,68,13,3,0.23
 Zambia,ZMB,13,67,14,6,0.21
