@@ -2,11 +2,15 @@
 
 This is a repository of data on how closely votes by UN member state's have aligned with the United States. The data was extracted from the U.S. State Department's annual report, *Voting Practices in the United Nations*.
 
+From the report:
+
 > The UN acts on a diverse set of issues; therefore, the voting record of a UN member in the General Assembly and Security Council provides insight into a country’s orientation toward a wide range of topics of importance to the United States. The voting coincidence data in this report is drawn only from UN General Assembly and Security Council votes. It does not indicate the coincidence of support for U.S. policies in other bodies in the UN System, other multilateral fora, or in bilateral contexts. Most bodies in the UN system adopt resolutions by consensus without votes being taken, which may skew the data for issues that enjoy wide consensus. Approximately 72 percent of all General Assembly resolutions, however, are adopted by acclamation. Therefore, overall voting correlation between countries is dependent on the types of resolutions that come to a vote. For example, Israel-related resolutions account for approximately 16 percent of resolutions that were adopted with a vote, significantly affecting the voting coincidence for countries that oppose these resolutions.
 
 **Source:** <https://www.state.gov/voting-practices-in-the-united-nations/>
 
 ## Data and methodology
+
+Data format:
 
 | Column | Meaning |
 |:--|:--|
