@@ -1,16 +1,12 @@
 # UN General Assembly Voting Coincidence with the United States
 
-An analysis of how closely each UN member state's votes in the General Assembly align with those of the United States, based on the U.S. State Department's annual *Voting Practices in the United Nations* reports.
+This is a repository of data on how closely votes by UN member state's have aligned with the United States. The data was extracted from the U.S. State Department's annual report, *Voting Practices in the United Nations*.
 
 > The UN acts on a diverse set of issues; therefore, the voting record of a UN member in the General Assembly and Security Council provides insight into a country’s orientation toward a wide range of topics of importance to the United States. The voting coincidence data in this report is drawn only from UN General Assembly and Security Council votes. It does not indicate the coincidence of support for U.S. policies in other bodies in the UN System, other multilateral fora, or in bilateral contexts. Most bodies in the UN system adopt resolutions by consensus without votes being taken, which may skew the data for issues that enjoy wide consensus. Approximately 72 percent of all General Assembly resolutions, however, are adopted by acclamation. Therefore, overall voting correlation between countries is dependent on the types of resolutions that come to a vote. For example, Israel-related resolutions account for approximately 16 percent of resolutions that were adopted with a vote, significantly affecting the voting coincidence for countries that oppose these resolutions.
 
 **Source:** <https://www.state.gov/voting-practices-in-the-united-nations/>
 
----
-
-## Scope and methodology
-
-This analysis covers **2017–2024 only**, deliberately excluding the 2013–2016 data. In 2017 the State Department **changed its methodology**: abstentions were brought into the calculation, and a new *Partial* category was introduced. Each country–year now sorts votes into four buckets:
+## Data and methodology
 
 | Column | Meaning |
 |:--|:--|
@@ -19,13 +15,11 @@ This analysis covers **2017–2024 only**, deliberately excluding the 2013–201
 | **PARTIAL** | Times exactly one of them abstained (counts as a half-match) |
 | **ABSENT** | Times the country did not vote (excluded from the score) |
 
-The **voting coincidence** is `(SAME + 0.5 × PARTIAL) / (SAME + OPPOSE + PARTIAL)`.
+The formula for calculating the voting coincidence is `(SAME + 0.5  PARTIAL) / (SAME + OPPOSE + PARTIAL)`.
 
-Before 2017 the third column was *Abstain* (the country's own abstentions, **excluded** from the score), so pre-2017 figures are **not comparable** to later years and are left out of this analysis. The raw 2013–2016 files remain in the repo for reference.
+The data format changed in 2017, when *Partial* replaced *Abstain*, so pre-2017 figures are not comparable to later years. The raw 2013–2016 files remain in the repo for reference but are not included in the analysis below.
 
----
-
-## Overall
+## Overall voting coincedence
 
 Average coincidence with the U.S. has **risen sharply** since 2017, climbing from ~31% to a peak of ~48% in 2022 before leveling off near 46%. The gap between mean and median is small, so the shift reflects a broad move across most countries rather than a few outliers.
 
@@ -50,7 +44,7 @@ Every region trended upward, but the spread is wide: **Europe** (~67%) and **Oce
 
 ![Mean coincidence by region](charts/regional.svg)
 
-*Regions follow a five-continent grouping by ISO code; transcontinental states (e.g. Turkey, Russia, Cyprus, the Caucasus) are assigned to a single region, which affects regional averages.*
+*Transcontinental states (e.g. Turkey, Russia, Cyprus, the Caucasus) are assigned to a single region, which affects regional averages.*
 
 ## Most and least aligned, 2024
 
@@ -114,9 +108,7 @@ Countries whose alignment swung the most year to year (standard deviation of coi
 | Afghanistan | 12 pts |
 | Dominica | 11 pts |
 
----
-
-## Data files
+## Files
 
 | File | Contents |
 |:--|:--|
@@ -127,15 +119,9 @@ Countries whose alignment swung the most year to year (standard deviation of coi
 
 ## Caveats and possible improvements
 
-- **Methodology break at 2017** — pre-2017 data is excluded for this reason; treat any cross-era
-  comparison with caution.
-- **Israel-resolution skew** — roughly a quarter of recorded UNGA votes concern Israel/Palestine.
-  A useful next step would be to recompute coincidence *excluding* those resolutions to isolate
+- **Methodology break at 2017** — pre-2017 data is excluded for this reason; treat any cross-era comparison with caution.
+- **Israel-resolution skew** — roughly a quarter of recorded UNGA votes concern Israel/Palestine. A useful next step would be to recompute coincidence *excluding* those resolutions to isolate
   alignment on other issues.
-- **Absences distort small states** — countries absent for many votes (e.g. several Pacific and
-  Caribbean states, or Afghanistan/Venezuela in 2024 with ~95 absences) have scores based on a
-  handful of votes; absence counts are worth surfacing alongside coincidence.
-- **Unweighted votes** — every resolution counts equally regardless of significance; weighting by
-  salience (or by the "important votes" the report flags separately) would sharpen the picture.
-- **Region definitions** — the five-continent grouping is coarse; bloc-based groupings (EU, P5,
-  G77, NATO) would be more analytically meaningful.
+- **Absences distort small states** — countries absent for many votes (e.g. several Pacific and Caribbean states, or Afghanistan/Venezuela in 2024 with ~95 absences) have scores based on a handful of votes; absence counts are worth surfacing alongside coincidence.
+- **Unweighted votes** — every resolution counts equally regardless of significance; weighting by salience (or by the "important votes" the report flags separately) would sharpen the picture.
+- **Region definitions** — the five-continent grouping is coarse; bloc-based groupings (EU, P5, G77, NATO) would be more analytically meaningful.
